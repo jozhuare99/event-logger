@@ -55,7 +55,7 @@
       "name": "New Log",
       "short_name": "New Log",
       "description": "Quickly create a new log Subject",
-      "url": "/new-subject",
+      "url": "/event-logger/new-subject",
       "icons": [{ "src": "icon_192x192_new_subject.png", "sizes": "192x192", "type": "image/png" }]
     }
   ],
