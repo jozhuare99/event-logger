@@ -147,6 +147,7 @@ self.addEventListener("fetch", (event) => {
       // Try network
       try {
         const networkResponse = await fetch(request);
+        const saveKey = makeKeyFromRequest(request.url);
         // if response is ok, store it (clone first)
         if (networkResponse && networkResponse.ok) {
           const responseToCache = networkResponse.clone();
@@ -181,7 +182,7 @@ self.addEventListener("fetch", (event) => {
               headers: { "Content-Type": entry.contentType || "text/html" },
             });
           }
-          
+
           if (offline && offline.content) {
             return new Response(offline.content, {
               headers: { "Content-Type": offline.contentType || "text/html" },
