@@ -12,7 +12,7 @@ const STATIC_ASSETS = [
   '/event-logger/screen_shot3.png',
   '/event-logger/screen_shot4.png',
   '/event-logger/assets/index-j0atv3cA.css',
-  '/event-logger/assets/index-DsGoMM8J.js',
+  '/event-logger/assets/index-DK_y6PaG.js',
   '/event-logger/assets/gcashqr-CZRyxFUC.svg',
   '/event-logger/assets/mayaqr-_1v_O_2M.svg',
   '/event-logger/about/index.html',
