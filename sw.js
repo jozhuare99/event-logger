@@ -1,5 +1,5 @@
 const STATIC_ASSETS = [
-  // '/',
+  '/event-logger/',
   'index.html',
   'offline.html',
   'icon_192x192_new_subject.png',
@@ -12,7 +12,7 @@ const STATIC_ASSETS = [
   'screen_shot3.png',
   'screen_shot4.png',
   'assets/index-j0atv3cA.css',
-  'assets/index-xXbQwyhJ.js',
+  'assets/index-DsGoMM8J.js',
   'assets/gcashqr-CZRyxFUC.svg',
   'assets/mayaqr-_1v_O_2M.svg',
   'about/index.html',
